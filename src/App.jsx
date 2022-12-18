@@ -6,7 +6,11 @@ function App() {
       <div className="backgroundImg"></div>
       <main>
         <form action="">
-          <textarea className="textArea" />
+          <label>
+            Hva bør inkluderes i tjenesten Disc Golf Tournament?
+            <textarea className="textArea" />
+          </label>
+          <button type="submit">Send</button>
         </form>
       </main>
     </>
